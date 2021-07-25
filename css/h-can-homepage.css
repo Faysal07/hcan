@@ -1,0 +1,1273 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #000;
+    line-height: 20px;
+    font-weight: normal;
+    background: #eee;
+    margin: 0px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn {
+    background: #99c966;
+    background-image: -webkit-linear-gradient(top, #99c966, #59a90a);
+    background-image: -moz-linear-gradient(top, #99c966, #59a90a);
+    background-image: -ms-linear-gradient(top, #99c966, #59a90a);
+    background-image: -o-linear-gradient(top, #99c966, #59a90a);
+    background-image: linear-gradient(to bottom, #99c966, #59a90a);
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    text-shadow: 1px 1px 3px #000000;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 22px 10px 22px;
+    border: solid #b9d998 1px;
+    text-decoration: none;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: #69a12e;
+    background-image: -webkit-linear-gradient(top, #69a12e, #207C00);
+    background-image: -moz-linear-gradient(top, #69a12e, #207C00);
+    background-image: -ms-linear-gradient(top, #69a12e, #207C00);
+    background-image: -o-linear-gradient(top, #69a12e, #207C00);
+    background-image: linear-gradient(to bottom, #69a12e, #207C00);
+    text-decoration: none;
+}
+
+#contact-formular2 input[type="text"],
+textarea {
+    background: #fff;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.22) inset;
+    color: #999999;
+    font-size: 14px;
+    height: 20px;
+    margin-bottom: 20px;
+    padding: 16px 3%;
+    text-transform: uppercase;
+    transition: all 0.2s linear 0s;
+    width: 94%;
+    margin-top: 10px;
+    color: #9b9b9b;
+}
+
+#contact-formular input[type="submit"],
+a#submit {
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 14px;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    background: linear-gradient(to bottom, rgba(153, 201, 102, 1) 34%, rgba(89, 169, 8, 1) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    font-size: 14px !important;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+/*Global Style Start Here*/
+
+.transation-hover {
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+
+.no-pd-right {
+    padding-right: 0px;
+}
+
+.no-pd-left {
+    padding-left: 0px;
+}
+
+.hidden-md {
+    display: none;
+}
+
+
+/*Global Style Ends Here*/
+
+/*Header Style Start Here*/
+
+.header {
+    background-color: #fff;
+    height: 100%;
+    max-height: 80px;
+    z-index: 99;
+    position: relative;
+}
+
+.header .navbar {
+    margin-bottom: 0px;
+}
+
+.header .navbar ul {
+    width: 100%;
+}
+
+.header .navbar ul li {
+    list-style-type: none;
+    padding: 28px 0px 28px;
+}
+
+.header .navbar ul li:nth-last-of-type(4) {
+    padding: 0px 30px 0px 30px;
+    border-bottom: none;
+}
+
+
+.header .navbar ul li:nth-last-of-type(4) a:hover {
+    border-bottom: 0;
+}
+
+.header .navbar ul li a {
+    padding: 28px 17px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 13px;
+    color: #000;
+    border-bottom: 4px solid transparent;
+}
+
+.header .navbar ul li a:hover {
+    border-bottom: 4px solid #00e38f;
+}
+
+
+/*Header Style Ends Here*/
+
+/*Banner Style Start Here*/
+
+.banner-slider {
+    position: relative;
+    display: inline-block;
+    margin-top: -81px;
+}
+
+.banner-slider .banner-slide-item img {
+    width: 100%;
+}
+
+.banner-slider .banner-slide-info {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 9;
+}
+
+/*Owl Carosoul Next And Previous Style*/
+
+.banner-slider .owl-prev i,
+.banner-slider .owl-next i {
+    color: #e97e46;
+    font-size: 36px;
+    height: 50px;
+    top: 50%;
+    position: absolute;
+    text-align: center;
+    line-height: 48px;
+    width: 50px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.banner-slider .owl-prev i {
+    left: 5px;
+}
+
+.banner-slider .owl-next i {
+    right: 5px;
+}
+
+
+/*Owl Carosoul Next And Previous Style Ends*/
+
+.banner-slider .banner-slide-info h1 {
+    font-family: 'Proxima Nova Rg';
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    color: #fff;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.banner-slider .banner-slide-info p {
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding: 26px 0px;
+    line-height: 28px;
+}
+
+.banner-slider .banner-slide-info a {
+    padding: 15px 48px;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 142px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Proxima Nova Rg';
+    font-size: 14px;
+    font-weight: 400;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+    margin-right: 15px;
+}
+
+.banner-slider .banner-slide-info a:hover {
+    color: #fff;
+    background-color: #00e38f;
+    border: 2px solid #00e38f;
+}
+
+/*Banner Style Ends Here*/
+
+/*About Us Style Start Here*/
+
+.about-us {
+    background-color: #fff;
+    padding: 30px 0px;
+}
+
+.about-us .about-info {
+    text-align: center;
+}
+
+.about-us .about-info h2,
+.about-information h2,
+.blog h2,
+.shop h2,
+.product-name .product-name-text h2,
+.our-product h2 {
+    color: #000;
+    font-family: 'Proxima Nova Rg';
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 70px;
+    margin: 0;
+    padding-top: 25px;
+}
+
+.about-us .about-info p {
+    color: #000;
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0;
+    padding-top: 45px;
+    padding-bottom: 40px;
+}
+
+.about-us .about-info .scrol-down-a,
+.blog .scrol-down-a {
+    display: block;
+    padding: 10px 0px;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid #000;
+    border-radius: 50px;
+    color: #000;
+    font-size: 28px;
+}
+
+.about-us .about-info .more-info,
+.blog .more-info {
+    display: block;
+    padding: 24px 0px;
+    color: #00e38f;
+    text-decoration: none;
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+
+/*About Us Style Ends Here*/
+
+/*cbd-cannabis Style Start Here*/
+
+.parallax-window {
+    min-height: 306px;
+    background: transparent;
+}
+
+.cbd-cannabis-text {
+    text-align: center;
+}
+
+.cbd-cannabis-text h2 {
+    color: #fff;
+    font-family: 'Proxima Nova Rg';
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 45px;
+    margin: 0;
+    padding: 100px 0px 0px 0px;
+}
+
+/*cbd-cannabis Style Ends Here*/
+
+/*Product Style Start here*/
+
+.product {
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+
+.product-list {
+    display: inline-block;
+    position: relative;
+}
+
+.product-list-text {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    z-index: 99;
+    margin-top: -22px;
+    background-color: #fff;
+}
+
+.product-list-text::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    bottom: -226px;
+    background: url(../images/homepage/shadow-img-product.png) no-repeat center;
+}
+
+.product-list-text h2 {
+    color: #000;
+    font-family: 'Proxima Nova Rg';
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 70px;
+    margin: 0;
+    padding-top: 25px;
+}
+
+.product-list-text p {
+    color: #000;
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0;
+    padding: 45px 49px 0px;
+}
+
+.product-list-text p:nth-last-of-type(1) {
+    padding-bottom: 50px;
+}
+
+.product-list-btn {
+    widows: 100%;
+    display: inline-block;
+    z-index: 999;
+    position: relative;
+}
+
+.product-list-btn .button-group {
+    margin: 65px 0px;
+}
+
+.product-list-btn .button-group a {
+    padding: 25px 53px;
+    width: 255px;
+    text-align: center;
+    background-color: #47459a;
+    color: #fff;
+    margin: 0px 10px;
+    border-radius: 50px;
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.product-list-btn .button-group a:hover {
+    background-color: #c4289b;
+}
+
+/*Product Style Ends here*/
+
+/*Product Details Style Start Here*/
+
+.product-details {
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+
+.product-details img {
+    width: 100%;
+}
+
+.no-pd {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.product-details .guillaume-tell-text,
+.product-details .sweet-h-crystal-text,
+.product-details .strawberry-text {
+    width: 100%;
+    display: inline-block;
+    padding-top: 75px;
+}
+
+.product-details .guillaume-tell-text h2,
+.product-details .sweet-h-crystal-text h2,
+.product-details .strawberry-text h2 {
+    color: #000;
+    font-family: 'Proxima Nova Rg';
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 70px;
+    margin: 0;
+    padding-top: 25px;
+}
+
+.product-details .guillaume-tell-text p,
+.product-details .sweet-h-crystal-text p,
+.product-details .strawberry-text p {
+    color: #000;
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.product-details .guillaume-tell-text a,
+.product-details .sweet-h-crystal-text a,
+.product-details .strawberry-text a {
+    padding: 20px 25px;
+    width: 128px;
+    text-align: center;
+    background-color: #00e38f;
+    color: #fff;
+    border-radius: 3px;
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.product-details .guillaume-tell-text a:hover,
+.product-details .sweet-h-crystal-text a:hover,
+.product-details .strawberry-text a:hover {
+    background-color: #c4289b;
+}
+
+.sweet-h-crystal-section,
+.about-img-information .quality-about,
+.about-img-information .excellency-about {
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(244, 255, 250, 0.6);
+}
+
+.sweet-h-crystal-section .sweet-h-crystal {
+    width: 100%;
+    display: inline-block;
+    float: left;
+}
+
+.sweet-h-crystal-section .sweet-h-crystal img {
+    float: right;
+    position: relative;
+}
+
+/*Product Details Style Ends Here*/
+
+/*latest-new-articles Style Start Here*/
+
+.latest-new-articles {
+    background-color: #48459a;
+    padding-bottom: 40px;
+}
+
+.latest-new-articles h2 {
+    color: #fff;
+    font-family: 'Proxima Nova Rg';
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 70px;
+    margin: 0;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.latest-new-articles span {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+.latest-new-articles .latest-articles {
+    display: inline-block;
+    width: 100%;
+}
+
+.latest-articles .owl-prev i,
+.latest-articles .owl-next i {
+    color: #00e38f;
+    font-size: 36px;
+    height: 50px;
+    top: 50%;
+    position: absolute;
+    text-align: center;
+    line-height: 48px;
+    width: 50px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.latest-articles .owl-prev i {
+    left: -30px;
+}
+
+.latest-articles .owl-next i {
+    right: -30px;
+}
+
+.latest-new-articles .latest-articles-box {
+    width: 100%;
+    max-width: 382px;
+    border: 4px solid #1c6dbf;
+    background-color: #fff;
+    padding: 46px 56px;
+}
+
+.latest-new-articles .latest-articles-box h4,
+.product-name .product-name-text h4 {
+    color: #47459a;
+    font-family: 'Proxima Nova Rg';
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 28px;
+    margin: 0;
+    padding-bottom: 35px;
+}
+
+.latest-new-articles .latest-articles-box p {
+    color: #000;
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.latest-new-articles .latest-articles-box a {
+    color: #00e38f;
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.latest-new-articles .latest-articles-box a:hover {
+    color: #c4289b;
+}
+
+/*latest-new-articles Style Ends Here*/
+
+/*keep-up-latest-news Style Start Here*/
+
+.keep-up-latest-news {
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 56px;
+}
+
+.keep-up-latest-news h2 {
+    color: #000;
+    font-family: 'Proxima Nova Rg';
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 70px;
+    margin: 0;
+    padding-top: 44px;
+    padding-bottom: 36px;
+}
+
+.keep-up-latest-news input:nth-last-of-type(2) {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px 0px 20px 35px;
+    border: 4px solid #5c5c5c;
+    border-radius: 50px;
+    color: #797979;
+    margin-right: 15px;
+}
+
+.keep-up-latest-news input:nth-last-of-type(1) {
+    width: 100%;
+    max-width: 186px;
+    padding: 20px 48px 20px 48px;
+    background-color: #00e38f;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+    text-align: left;
+    font-family: 'Proxima Nova Rg';
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 28px;
+}
+
+/*keep-up-latest-news Style Ends Here*/
+
+/*Footer Style Start Here*/
+
+.footer {
+    background-color: #5c5c5c;
+}
+
+.footer img {
+    width: 100%;
+}
+
+.footer .footer-nav,
+.footer .footer-product-list,
+.footer p:nth-last-of-type(2) {
+    padding: 24px 0px 0px 50px;
+}
+
+.footer p:nth-last-of-type(1) {
+    padding: 0px 0px 0px 50px;
+}
+
+.footer .footer-nav li,
+.footer .footer-product-list li {
+    list-style-type: none;
+}
+
+.footer .footer-nav li a,
+.footer .footer-product-list li a,
+.footer p,
+.footer .social-icon a {
+    color: #fff;
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 29px;
+}
+
+.footer .footer-nav li a:hover,
+.footer .footer-product-list li a:hover,
+.footer .social-icon a :hover {
+    color: #00e38f;
+}
+
+.footer .social-icon a:nth-last-of-type(4) {
+    padding-left: 44px;
+}
+
+.footer .social-icon a {
+    padding: 0px 6px;
+}
+
+.footer .social-icon a i {
+    font-size: 20px;
+}
+
+/*Footer Style Ends Here*/
+
+/************************************************Home Page Style Ends Here************************************/
+
+/**************************************************About Page Style Start Here**********************************/
+
+/*Aboout Information Style Start Here*/
+
+.about-information {
+    padding: 50px 0px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.about-information p,
+.about-img-information .quality-about-text p,
+.about-img-information .excellency-about-text p,
+.blog .blog-info .blog-info-text p,
+.shop .shop-card-text p,
+.product-name .product-name-text p,
+.our-product .shop-card-text p {
+    color: #000;
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0;
+    padding-top: 40px;
+    padding-right: 40px;
+    text-align: left;
+}
+
+/*Aboout Information Style Ends Here*/
+
+/*About-Img-Information Style Start Here*/
+
+.about-img-information {
+    background-color: #fff;
+}
+
+.about-img-information img {
+    width: 100%;
+}
+
+.about-img-information .quality-about-text,
+.about-img-information .excellency-about-text {
+    text-align: center;
+    padding: 128px 0px;
+}
+
+.about-img-information .quality-about-text h3,
+.about-img-information .excellency-about-text h3 {
+    color: #000;
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 36px;
+    margin: 0;
+    padding-bottom: 18px;
+}
+
+.about-img-information .quality-about-text p,
+.about-img-information .excellency-about-text p {
+    text-align: center;
+    padding: 0px 83px;
+}
+
+.about-img-information .excellency-about-text p {
+    text-align: center;
+    padding: 0px 72px;
+}
+
+.about-img-information .natural-about,
+.about-img-information .excellency-about {
+    display: inline-block;
+    width: 100%;
+    margin-top: -5px;
+    height: 100%;
+    max-height: 440px;
+}
+
+.about-img-information .natural-about p {
+    text-align: center;
+    padding: 0px 93px;
+}
+
+/*About-Img-Information Style Ends Here*/
+
+/**************************************************About Page Style Ends Here**********************************/
+
+/**************************************************Blog Page Style Start here**********************************/
+
+.blog {
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.blog span {
+    padding-bottom: 45px;
+    display: inline-block;
+}
+
+.blog .blog-info {
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    max-width: 386px;
+}
+
+.blog .blog-info img,
+.shop .shop-card img,
+.our-product .shop-card img {
+    width: 100%;
+}
+
+.blog .blog-info .blog-info-text {
+    width: 100%;
+}
+
+.blog .blog-info .blog-info-text h3,
+.shop .shop-card-text h3,
+.our-product .shop-card-text h3 {
+    color: #000;
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 22px;
+    margin: 0;
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+
+.blog .blog-info .blog-info-text > span {
+    color: #000;
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0;
+    padding-bottom: 30px;
+    display: inline-block;
+}
+
+.blog .blog-info .blog-info-text p {
+    padding-top: 0px;
+    padding-bottom: 70px;
+    padding-right: 0px;
+    font-size: 17px;
+}
+
+/**************************************************Blog Page Style Ends here**********************************/
+
+/**************************************************Shop Page Style Start Here*********************************/
+
+.shop {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.shop::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 1200px;
+    background: url(../images/homepage/shadow-img-product.png) no-repeat center;
+}
+
+.shop span,
+.our-product span {
+    padding-bottom: 45px;
+    display: inline-block;
+}
+
+.shop .shop-card-text h3 {
+    padding-bottom: 20px;
+}
+
+.shop .shop-card-text > span,
+.our-product .shop-card-text > span {
+    color: #00e38f;
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 0;
+    padding-bottom: 35px;
+    display: inline-block;
+}
+
+.shop .shop-card-text p,
+.our-product .shop-card-text p {
+    padding-top: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+
+.shop .shop-card-text a,
+.our-product .shop-card-text a {
+    width: 140px;
+    margin-top: 20px;
+    display: inline-block;
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background-color: #00e38f;
+    padding: 16px 22px;
+    border-radius: 3px;
+    margin-bottom: 60px;
+}
+
+.shop .shop-card-text a:hover {
+    background-color: #c4289b;
+}
+
+
+/**************************************************Shop Page Style Ends Here*********************************/
+
+/**************************************************Product Name Style Start Here*****************************/
+
+.product-name {
+    padding: 100px 0px;
+    background-color: #fff;
+}
+
+.product-name .product-name-img {
+    width: 100%;
+}
+
+.product-name .product-name-text {
+    width: 100%;
+    display: inline-block;
+}
+
+.product-name .product-name-text h2 {
+    padding-top: 11px;
+    padding-bottom: 0px;
+    line-height: 36px;
+}
+
+.product-name .product-name-text h4 {
+    color: #000;
+    font-size: 18px;
+    line-height: 18px;
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+
+.product-name .product-name-text p {
+    color: #000;
+    font-size: 17px;
+    line-height: 27px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    padding-right: 0px;
+}
+
+.product-name .product-name-a-list {
+    padding-top: 20px;
+}
+
+.product-name .product-name-a-list .number-a {
+    border: 2px solid #47459a;
+    padding: 13px 34px;
+    width: 77px;
+    text-decoration: none;
+    color: #000;
+}
+
+.product-name .product-name-a-list .add-card {
+    width: 140px;
+    display: inline-block;
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background-color: #00e38f;
+    padding: 13px 22px;
+    border-radius: 3px;
+    margin-left: 26px;
+    border: 2px solid transparent;
+}
+
+.product-name .product-name-a-list .number-a:hover,
+.product-name .product-name-a-list .add-card:hover {
+    background-color: #c4289b;
+    color: #fff;
+    border: 2px solid #c4289b;
+}
+
+
+.our-product {
+    text-align: center;
+    background-color: #fff;
+}
+
+.our-product h2 {
+    padding-top: 0px;    
+}
+
+
+/**************************************************Product Name Style ENds Here*****************************/
+
+/**************************************************Contact Page Style Start Here ************************** */
+
+.no-padding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.mar-right {
+    margin-right: 0px !important;
+}
+
+.contact {
+    width: 100%;
+}
+
+.contact-form {
+	position: relative;
+	z-index: 11;
+	background: url(../images/homepage/cbd-cannabis.jpg) no-repeat center;
+	background-size: cover;
+    display: inline-block;
+    width: 100%;
+    margin-top: -81px;
+    padding: 80px 0px 80px 110px;
+}
+
+.contact-form:after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0, 0.8);
+    z-index: -11;
+}
+
+.form-group{
+    padding: 15px 0px;
+}
+
+.contact-form h1 {
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-size: 50px;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+    line-height: 58px;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-form label {
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-size: 19px;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+    line-height: 27px;
+    color: #fff;
+}
+
+.contact-form input,
+.contact-form textarea {
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-size: 19px;
+    font-weight: normal;
+    width: 95%;
+    display: block;
+    line-height: 27px;
+    color: #fff;
+    background-color: transparent;
+    padding: 8px 10px;
+    margin-right: 15px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    transition: 0.4s all;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-bottom: 4px solid #c4289b;
+    transition: 0.4s all;
+    background-color: #00e38f !important;
+}
+
+.contact-form .form-group > a {
+    width: 160px;
+    display: inline-block;
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background-color: #00e38f;
+    padding: 13px 22px;
+    border-radius: 3px;
+    margin: 30px 25%;
+    border: 2px solid transparent;
+    transition: 0.4s all;
+}
+
+.contact-form .form-group > a:hover {
+    background-color: #c4289b;
+    color: #fff;
+    border: 2px solid #c4289b;
+    transition: 0.4s all;
+}
+
+.map-container-5 {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+    
+.map-container-5 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.view {
+    position: relative;
+    overflow: hidden;
+    cursor: default;
+}
+
+.card {
+    font-weight: 400;
+    border: 0;
+    -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius: .25rem;
+}
+
+.card-body {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 0 !important;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.card.card-cascade.narrower {
+    margin-top: 1.25rem;
+}
+
+.card.card-cascade.narrower .view.view-cascade {
+    margin-top: -5.25rem;
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-bottom: 10px;
+}
+
+.card.card-cascade .view.view-cascade.gradient-card-header {
+    padding: 1.6rem 1rem;
+    color: #fff;
+    text-align: center;
+}
+
+.card.card-cascade .view.view-cascade.gradient-card-header h3 {
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 38px;
+}
+
+.card-cascade .view.view-cascade {
+    border-radius: .25rem;
+    -webkit-box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+    box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+}
+
+.blue-gradient {
+    background: linear-gradient(40deg,#ffd86f,#fc6262) !important;
+}
+
+.google-map{
+    background-color: #fff;
+    margin-top: 100px;
+}
+
+/* End CSS */

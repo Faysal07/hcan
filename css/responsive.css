@@ -1,0 +1,490 @@
+/*		Medium Device	*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+    .header .navbar ul li a {
+        padding: 0px 10px;
+    }
+
+    .banner-slider .banner-slide-info h1 {
+        font-size: 37px;
+    }
+
+    .banner-slider .banner-slide-info p {
+        font-size: 14px;
+        padding: 26px 0px 20px;
+        line-height: 25px;
+    }
+
+    .product-list-text p {
+        font-size: 18px;
+        line-height: 30px;
+        padding: 25px 49px 0px;
+    }
+
+    .product-list-text::after {
+        bottom: -195px;
+    }
+
+    .product-list-btn .button-group a {
+        padding: 20px 36px;
+        font-size: 15px;
+    }
+
+    .product-details .guillaume-tell-text h2,
+    .product-details .sweet-h-crystal-text h2,
+    .product-details .strawberry-text h2 {
+        font-size: 35px;
+        line-height: 46px;
+        padding-top: 0px;
+    }
+
+    .product-details .guillaume-tell-text p,
+    .product-details .sweet-h-crystal-text p,
+    .product-details .strawberry-text p {
+        font-size: 15px;
+        line-height: 25px;
+        padding-bottom: 25px;
+        padding-top: 15px;
+    }
+
+    .product-details .guillaume-tell-text a,
+    .product-details .sweet-h-crystal-text a,
+    .product-details .strawberry-text a {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+
+    .latest-new-articles h2 {
+        line-height: 50px;
+        padding-top: 25px;
+    }
+
+    .latest-new-articles .latest-articles-box {
+        padding: 46px 36px;
+    }
+
+    .latest-new-articles .latest-articles-box h4 {
+        padding-bottom: 15px;
+    }
+
+    .latest-new-articles .latest-articles-box p {
+        font-size: 17px;
+        padding-bottom: 20px;
+    }
+
+    .latest-articles .owl-prev i {
+        left: -21px;
+    }
+
+    .latest-articles .owl-next i {
+        right: -21px;
+    }
+
+
+
+}
+
+/*		Tablet Layout: 768px.	*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .header .navbar ul li a {
+        padding: 0px 8px;
+    }
+
+    .banner-slider .banner-slide-info h1 {
+        font-size: 29px;
+        line-height: 32px;
+        padding-top: 20px;
+    }
+
+    .banner-slider .banner-slide-info p {
+        font-size: 14px;
+        padding: 10px 0px 20px;
+        line-height: 22px;
+    }
+
+    .banner-slider .banner-slide-info a {
+        padding: 10px 48px;
+        font-size: 12px;
+    }
+
+    .about-us .about-info h2 {
+        font-size: 25px;
+        line-height: 30px;
+        padding-top: 15px;
+    }
+
+    .about-info span img,
+    .product-list-text span img {
+        width: 15%;
+    }
+
+    .about-us .about-info p {
+        font-size: 13px;
+        line-height: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .about-us .about-info .scrol-down-a {
+        width: 38px;
+        height: 38px;
+        font-size: 20px;
+    }
+
+    .about-us .about-info .more-info {
+        padding: 15px 0px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .parallax-window {
+        min-height: 338px;
+    }
+
+    .cbd-cannabis-text {
+        padding-top: 100px;
+    }
+
+    .cbd-cannabis-text h2 {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .product-list-text h2 {
+        font-size: 26px;
+    }
+
+    .product-list-text p {
+        font-size: 15px;
+        line-height: 25px;
+        padding: 35px 34px 0px;
+    }
+
+    .product-list-text p {
+        font-size: 14px;
+        line-height: 25px;
+        padding: 20px 30px 0px;
+    }
+
+    .product-list-text::after {
+        bottom: -170px;
+    }
+
+    .product-list-btn .button-group a {
+        padding: 12px 28px;
+        margin: 0px 5px;
+        font-size: 12px;
+    }
+
+    .product-list-btn .button-group {
+        margin: 10px 0px;
+    }
+
+    .product-details .guillaume-tell-text h2,
+    .product-details .sweet-h-crystal-text h2,
+    .product-details .strawberry-text h2 {
+        font-size: 25px;
+        line-height: 35px;
+        padding-top: 0px;
+    }
+
+    .product-details .guillaume-tell-text p,
+    .product-details .sweet-h-crystal-text p,
+    .product-details .strawberry-text p {
+        font-size: 14px;
+        line-height: 23px;
+        padding-bottom: 15px;
+    }
+
+    .product-details .guillaume-tell-text a,
+    .product-details .sweet-h-crystal-text a,
+    .product-details .strawberry-text a {
+        padding: 12px 20px;
+        font-size: 12px;
+    }
+
+    .latest-new-articles h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .latest-new-articles .latest-articles-box {
+        max-width: 215px;
+        padding: 25px 20px;
+        margin: 0px 4px;
+    }
+
+    .latest-articles .owl-prev i {
+        left: -20px;
+    }
+
+    .latest-articles .owl-next i {
+        right: -20px;
+    }
+
+    .latest-new-articles .latest-articles-box h4 {
+        font-size: 16px;
+        line-height: 16px;
+        padding-bottom: 18px;
+        padding-top: 15px;
+    }
+
+    .latest-new-articles .latest-articles-box p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-bottom: 17px;
+    }
+
+    .latest-new-articles .latest-articles-box a {
+        font-size: 13px;
+    }
+
+    .keep-up-latest-news h2 {
+        font-size: 30px;
+    }
+
+    .footer .footer-nav,
+    .footer .footer-product-list,
+    .footer p:nth-last-of-type(2) {
+        padding: 24px 0px 0px 10px;
+    }
+
+    .footer p:nth-last-of-type(1) {
+        padding: 0px 0px 0px 10px;
+    }
+
+    .footer .footer-nav li a,
+    .footer .footer-product-list li a,
+    .footer p,
+    .footer .social-icon a {
+        font-size: 14px;
+    }
+
+    .footer .social-icon a:nth-last-of-type(4) {
+        padding-left: 8px;
+    }
+
+}
+
+
+/*		Mobile Layout: 320px.    */
+
+@media only screen and (max-width: 767px) {
+
+    .hidden-md {
+        display: block;
+    }
+    .hidden-md > img {
+        width: 22%;
+    }
+
+    .navbar-nav {
+        margin: 4px 0px 0px;
+        background-color: #c4289b;
+    }
+
+    .header .navbar ul li a {
+        color: #fff;
+    }
+
+    .navbar-toggle {
+        border: 2px solid #c4289b;
+        margin-top: -60px;
+    }
+
+    .navbar-toggle .icon-bar {
+        background-color: #00e38f;
+    }
+
+    .banner-slider .banner-slide-info h1 {
+        font-size: 12px;
+        line-height: 0px;
+        margin-bottom: 6px;
+        display: inline-block;
+    }
+
+    .banner-slider .banner-slide-info p {
+        font-size: 9px;
+        padding: 0px 0px 3px;
+        display: inline-block;
+        line-height: 10px;
+        margin: 0px;
+    }
+
+    .banner-slider .banner-slide-info a {
+        padding: 4px 18px;
+        width: 100px;
+        font-size: 9px;
+    }
+
+    .banner-slider .banner-slide-info {
+        top: 70%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+    }
+
+    .about-info img {
+        width: 100%;
+    }
+
+    .about-us .about-info h2 {
+        font-size: 22px;
+        line-height: 22px;
+        padding-top: 20px;
+
+    }
+
+    .about-info span img,
+    .product-list span img {
+        width: 25%;
+    }
+
+    .about-us .about-info p {
+        font-size: 13px;
+        line-height: 24px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .about-us .about-info .scrol-down-a {
+        padding: 7px 0px;
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+    }
+
+    .about-us .about-info .more-info {
+        padding: 8px 0px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .cbd-cannabis-text h2 {
+        font-size: 18px;
+        line-height: 30px;
+        padding: 100px 0px 0px 0px;
+    }
+
+    .product-list-text h2 {
+        font-size: 22px;
+        line-height: 22px;
+        padding-top: 40px;
+    }
+
+    .product-list-text p {
+        font-size: 14px;
+        line-height: 25px;
+        padding: 15px 15px 0px;
+    }
+
+    .product-list-text::after {
+        bottom: -200px;
+    }
+
+    .product-list-text p:nth-last-of-type(1) {
+        padding-bottom: 20px;
+    }
+
+    .product-list-btn .button-group a {
+        padding: 15px 26px;
+        margin: 0px 10px 10px;
+        font-size: 15px;
+        display: block;
+    }
+
+    .product-details .guillaume-tell-text,
+    .product-details .sweet-h-crystal-text,
+    .product-details .strawberry-text {
+        width: 100%;
+        display: inline-block;
+        padding-top: 0px;
+        padding-left: 15px;
+    }
+
+    .product-details .guillaume-tell-text h2,
+    .product-details .sweet-h-crystal-text h2,
+    .product-details .strawberry-text h2 {
+        font-size: 30px;
+        line-height: 30px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .product-details .guillaume-tell-text p,
+    .product-details .sweet-h-crystal-text p,
+    .product-details .strawberry-text p {
+        font-size: 14px;
+        line-height: 24px;
+        padding-bottom: 15px;
+    }
+
+    .product-details .guillaume-tell-text a,
+    .product-details .sweet-h-crystal-text a,
+    .product-details .strawberry-text a {
+        padding: 10px 25px;
+        font-size: 12px;
+    }
+
+    .guillaume-tell-section,
+    .sweet-h-crystal-section,
+    .strawberry-section {
+        margin-bottom: 25px;
+    }
+
+    .latest-new-articles h2 {
+        font-size: 25px;
+        line-height: 30px;
+        padding-top: 25px;
+    }
+
+    .latest-new-articles .latest-articles-box {
+        max-width: 280px;
+        padding: 30px 30px;
+        margin: 0px 5px;
+    }
+
+    .latest-articles .owl-prev i {
+        left: -15px;
+    }
+
+    .latest-articles .owl-prev i,
+    .latest-articles .owl-next i {
+        font-size: 25px;
+    }
+
+    .latest-articles .owl-next i {
+        right: -15px;
+    }
+
+    .keep-up-latest-news h2 {
+        font-size: 26px;
+        line-height: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .keep-up-latest-news input:nth-last-of-type(2) {
+        margin-bottom: 15px;
+    }
+
+    .footer img {
+        width: 90%;
+        padding-left: 49px;
+    }
+
+    .social-icon {
+        padding-bottom: 30px;
+    }
+
+
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}

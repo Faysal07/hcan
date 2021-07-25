@@ -1,0 +1,77 @@
+
+
+
+
+body{
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+ul{
+	list-style:none;
+    margin: 0;
+    padding: 0;
+}
+
+a img{
+	border: 0px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+label{
+    font-weight: normal;
+}
+
+a:hover, a:focus{
+    text-decoration: none;
+    outline: none;
+    background: transparent;
+}
+
+/* Wordpress Align */
+.alignleft {
+	float: left;
+    margin-right: 15px;
+    margin-botom: 15px;
+}
+
+.alignright {
+	float: right;
+    margin-left: 15px;
+    margin-botom: 15px;
+}
+
+.aligncenter {
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+}
+
+
+/*Bootstrap*/
+.container{
+
+}
+
+
+
+
+
+
+
+
+
+
+
