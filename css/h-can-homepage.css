@@ -165,6 +165,7 @@ a#submit {
     position: relative;
     display: inline-block;
     margin-top: -81px;
+    width: 100%;
 }
 
 .banner-slider .banner-slide-item img {
